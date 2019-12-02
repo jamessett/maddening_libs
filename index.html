@@ -1,0 +1,59 @@
+<!-- 
+  FIRST:   Play one of the madlibs from this site: https://www.madtakes.com/index.php
+
+  SECOND: Create your own madlib site. You can create your own story or use one from this site.
+
+  REQUIREMENTS: The page must be STYLED!! Make it colorful, pretty, full of CSS and HTML goodness on top of wonderful JS.  Show off all you can do!
+
+  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1> THE MOST AMAZING ADLIB IN THE WORLD! </h1>
+	<br>
+  <br>
+
+    <form id= "madLib">
+    <span>Noun:</span>
+     <input type="text" name="noun1" placeholder="noun" id="noun1">
+     <br>
+
+     <span> Another Noun:</span>
+     <input type="text" name="noun2" placeholder="noun" id="noun2">
+     <br>
+
+     <span> Another Noun:</span>
+     <input type="text" name="noun3" placeholder="noun" id="noun3">
+     <br>
+
+     <span>Adjective:</span>
+     <input type="text" name="adj1" placeholder="adjective" id="adj1">
+     <br>
+
+     <span>Another Adjective:</span>
+     <input type="text" name="adj2" placeholder="adjective" id="adj2">
+     <br>
+
+     <span>Another Adjective:</span>
+     <input type="text" name="adj3" placeholder="adjective" id="adj3">
+     <br>
+
+     <span> Your name:</span>
+     <input type="text" name="username" placeholder="Your Name" id="username">
+     <br>
+     <br>
+
+     <input type="button" value="LET'S GO!" onclick="madStart()">
+   </form>
+    <script src="script.js"></script>
+  </body>
+</html>
